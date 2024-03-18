@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+    background-color: #0E0E0E;
+    background-image: url("assets/banner2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#profilePic{
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border-radius: 50%;
+    background-image: url("assets/profile.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#nameSection{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#downloadButton{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#downloadButton button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+
+#socialIcons{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    width: 30px;
+}
+
+p{
+    color: white;
+    font-size: 12px;
+}
